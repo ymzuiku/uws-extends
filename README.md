@@ -1,7 +1,7 @@
 # uWebSockets 的扩展
 
 众所周知，每次短小的请求，大部分时间开销都在握手上；使用 webSockets 可以有效减少每次握手时间，但是它不如 http 使用直观。
-此库的目的是 让 ws 和 http 的使用和 http 请求一样直观，为了更好的兼容，此库仅是在 uWebSockets 基础上进行扩展，
+此库的目的是 让 ws 和 http 请求一样直观，为了更好的兼容，此库仅是在 uWebSockets 基础上进行扩展。
 
 ## server:
 
