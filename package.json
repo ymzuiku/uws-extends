@@ -1,6 +1,11 @@
 {
   "name": "uws-extends",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "lib/client-ws.js",
+  "license": "MIT",
+  "dependencies": {
+    "@nuage/uws": "^15.11.0",
+    "@types/node": "^12.7.5",
+    "querystring-number": "^1.0.1"
+  }
 }
